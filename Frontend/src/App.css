@@ -1,0 +1,15 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #121212;
+  color: #fff;
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}

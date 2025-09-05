@@ -1,0 +1,75 @@
+
+
+:root {
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+}
+
+
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, button {
+  border: none;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background: #232323;
+  color: #fff;
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+}
+
+.btn-primary {
+  background-color: #BB86FC;
+  color: #121212;
+}
+
+.btn-primary:hover {
+  background-color: #3700B3;
+  color: #fff;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #232323;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background: #232323;
+  color: #fff;
+  font-family: 'Aeonik Fono Regular', 'Aeonik Fono Regular Placeholder', sans-serif;
+}
+
+.form-control:focus {
+  border-color: #BB86FC;
+  box-shadow: 0 0 0 2px rgba(187,134,252,0.25);
+}
